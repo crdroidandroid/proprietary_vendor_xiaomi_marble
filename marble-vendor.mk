@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/bin/diag-router:$(TARGET_COPY_OUT_VENDOR)/bin/diag-router \
     vendor/xiaomi/marble/proprietary/vendor/bin/displayfeature:$(TARGET_COPY_OUT_VENDOR)/bin/displayfeature \
     vendor/xiaomi/marble/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
+    vendor/xiaomi/marble/proprietary/vendor/bin/dspservice:$(TARGET_COPY_OUT_VENDOR)/bin/dspservice \
     vendor/xiaomi/marble/proprietary/vendor/bin/edgnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/edgnss-daemon \
     vendor/xiaomi/marble/proprietary/vendor/bin/embmsslServer:$(TARGET_COPY_OUT_VENDOR)/bin/embmsslServer \
     vendor/xiaomi/marble/proprietary/vendor/bin/engine-service:$(TARGET_COPY_OUT_VENDOR)/bin/engine-service \
@@ -81,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/bin/hw/qvrservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qvrservice \
     vendor/xiaomi/marble/proprietary/vendor/bin/hw/sxrservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sxrservice \
     vendor/xiaomi/marble/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
+    vendor/xiaomi/marble/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@2.0-service \
     vendor/xiaomi/marble/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@2.0-service \
     vendor/xiaomi/marble/proprietary/vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.camera.provider@2.7-service_64 \
     vendor/xiaomi/marble/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
@@ -748,6 +750,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.allocator-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.qti.hardware.display.composer-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.composer-service.rc \
+    vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.qti.hardware.eid@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.eid@1.0-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf-hal-service.rc \
@@ -939,6 +942,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/sensors-qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sensors-qesdk.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/sxr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sxr@2.0.policy \
+    vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
@@ -1860,6 +1864,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.6.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.7.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmctmgr.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmfdmgr.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmframework.so \
