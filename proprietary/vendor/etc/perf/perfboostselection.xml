@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ /*This doc literally is a whitelist,
+  *Parser configs to overlay the hint paramters
+  */
+-->
+
+<BoostConfigs>
+    <PerfBoost>
+
+    <!--app lauch boost-->
+        <!-- SCHEDBOOST resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ PRIME Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
+        <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
+        <!-- CPU_LLCC_BW_MIN_FREQ_V2 resource opcode, value-->
+        <!-- POWER COLLAPSE resource opcode, value-->
+        <!-- STORAGE CLK SCALING resource opcode, value-->
+        <!-- LLCC DDR LAT CPU0 MIN FREQ resource opcode, value-->
+        <!-- L3 resource opcode, value-->
+        <!-- GPU DISABLE resource opcode, value-->
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="600" Target="taro"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41848000, 0x104410,
+                       0x41844000, 0x104410, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43460000, 0x30D400,
+                       0x43458000, 0x193138, 0x4281C000, 2000"
+            Applist="com.miui.calculator, com.miui.weather2, com.miui.notes, com.miui.gallery, com.android.calendar, com.android.deskclock,
+                     com.android.soundrecorder, com.android.contacts, com.android.mms, com.duokan.reader, com.miui.securitycenter, com.android.settings,
+                     com.xiaomi.market, com.android.quicksearchbox, com.android.fileexplorer, com.xiaomi.gamecenter, com.miui.video"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="600" Target="cape"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41848000, 0x104410,
+                       0x41844000, 0x104410, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43460000, 0x30D400,
+                       0x43458000, 0x193138, 0x4281C000, 2000"
+            Applist="com.miui.calculator, com.miui.weather2, com.miui.notes, com.miui.gallery, com.android.calendar, com.android.deskclock,
+                     com.android.soundrecorder, com.android.contacts, com.android.mms, com.duokan.reader, com.miui.securitycenter, com.android.settings,
+                     com.xiaomi.market, com.android.quicksearchbox, com.android.fileexplorer, com.xiaomi.gamecenter, com.miui.video"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="600" Target="ukee"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41848000, 0x104410,
+                       0x41844000, 0x104410, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43460000, 0x30D400,
+                       0x43458000, 0x193138, 0x4281C000, 2000"
+            Applist="com.miui.calculator, com.miui.weather2, com.miui.notes, com.miui.gallery, com.android.calendar, com.android.deskclock,
+                     com.android.soundrecorder, com.android.contacts, com.android.mms, com.duokan.reader, com.miui.securitycenter, com.android.settings,
+                     com.xiaomi.market, com.android.quicksearchbox, com.android.fileexplorer, com.xiaomi.gamecenter, com.miui.video"/>
+
+    <!--Horizontal Scroll boost-->
+        <!-- CPUBW_MIN_FREQ resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value -->
+        <!-- SCHEDBOOST resource opcode, value-->
+        <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
+        <!-- LPM Bias resource opcode, value-->
+
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="taro" Fps="60"
+            Resources="0x43000000, 0x26, 0x40800000, 1651, 0x40800100, 1516, 0x40800200, 1766,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="taro" Fps="90"
+            Resources="0x43010000, 0x26, 0x40800000, 1651, 0x40800100, 1516, 0x40800200, 1766,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="taro" Fps="120"
+            Resources="0x43010000, 0x26, 0x40800000, 1900, 0x40800100, 1516, 0x40800200, 1862,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="taro" Fps="144"
+            Resources="0x43010000, 0x26, 0x40800000, 1900, 0x40800100, 1516, 0x40800200, 1862,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <!--8475 -->
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="cape" Fps="60"
+            Resources="0x43000000, 0x26, 0x40800000, 1651, 0x40800100, 1516, 0x40800200, 1766,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="cape" Fps="90"
+            Resources="0x43010000, 0x26, 0x40800000, 1651, 0x40800100, 1516, 0x40800200, 1766,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="cape" Fps="120"
+            Resources="0x43010000, 0x26, 0x40800000, 1900, 0x40800100, 1516, 0x40800200, 1862,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <!--7475 -->
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="ukee" Fps="60"
+            Resources="0x43000000, 0x26, 0x40800000, 1651, 0x40800100, 1516, 0x40800200, 1766,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="ukee" Fps="90"
+            Resources="0x43010000, 0x26, 0x40800000, 1651, 0x40800100, 1516, 0x40800200, 1766,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="ukee" Fps="120"
+            Resources="0x43010000, 0x26, 0x40800000, 1900, 0x40800100, 1516, 0x40800200, 1862,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.miui.home, com.zhihu.android"/>
+
+        <!--
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="lahaina" Fps="60"
+            Resources="0x43000000, 0x26, 0x40800000, 1651, 0x40800100, 1516, 0x40800200, 1766,
+                       0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.miui.weather2, com.xiaomi.market"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+
+            Applist1="" />
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="800" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market"/>
+
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="666" Target="lahaina"
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x41818000, 0xFF,
+                       0x41800000, 0xFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x43430100, 0x28C5,
+                       0x43400000, 0xFFFF, 0x4281C000, 2000"
+            Applist="com.android.settings, com.eg.android.AlipayGphone, com.xiaomi.market, com.antutu.ABenchMark, com.futuremark.dmandroid.application, com.primatelabs.geekbench, com.ludashi.benchmark, com.miui.weather2"/> -->
+
+        <!--Vertical Scroll boost-->
+        <!-- LLCBW_MIN_FREQ resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ PRIME CORE resource opcode, value -->
+        <!-- SCHEDBOOST resource opcode, value-->
+        <!-- L3_MEMLAT_MIN_FREQ_PRIME resource opcode, value -->
+        <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
+        <!-- LPM Bias resource opcode, value-->
+        <!-- MIN_ONLINE_CPU_CLUSTER_BIG opcode, value-->
+        <!-- Below additional resources for 120+fps-->
+        <!-- SCHED_MIN_TASK_UTIL_FOR_COLOCATION, value-->
+        <!-- SCHED_MIN_TASK_UTIL_FOR_BOOST, value-->
+        <!-- MIN_ONLINE_CPU_CLUSTER_PRIME opcode, value-->
+        <!-- SCHED_UP_DOWN_MIGRATE PRIME resource opcode, value -->
+
+        <!-- Type="1", Vertical Scroll boost -->
+        <Config
+            Id="0x00001080" Type="1" Enable="true" Target="ukee" Fps="60" Mitb="0x1"
+            Resources="0x4303C000, 0xA6428, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
+                       0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF, 0x40408000, 0x63,
+                       0x41000000, 3, 0x5FC00000, 0"
+            Applist="com.tencent.mm, com.ss.android.ugc.aweme, com.tencent.mobileqq, com.ss.android.article.news, com.tencent.qqlive, com.xunmeng.pinduoduo, com.UCMobile, com.dragon.read, com.sina.weibo"/>
+        <Config
+            Id="0x00001080" Type="1" Enable="true" Target="ukee" Fps="90" Mitb="0x1"
+            Resources="0x4303C000, 0xA6428, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
+                       0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF, 0x40408000, 0x63,
+                       0x41000000, 3, 0x5FC00000, 0"
+            Applist="com.tencent.mm, com.ss.android.ugc.aweme, com.tencent.mobileqq, com.ss.android.article.news, com.tencent.qqlive, com.xunmeng.pinduoduo, com.UCMobile, com.dragon.read, com.sina.weibo"/>
+        <Config
+            Id="0x00001080" Type="1" Enable="true" Target="ukee" Fps="120" Mitb="0x1"
+            Resources="0x4303C000, 0xA6428, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
+                       0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF, 0x40408000, 0x63,
+                       0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
+                       0x40CE0200, 0x0023000A, 0x5FC00000, 0"
+            Applist="com.tencent.mm, com.ss.android.ugc.aweme, com.tencent.mobileqq, com.ss.android.article.news, com.tencent.qqlive, com.xunmeng.pinduoduo, com.UCMobile, com.dragon.read, com.sina.weibo"/>
+    </PerfBoost>
+</BoostConfigs>
