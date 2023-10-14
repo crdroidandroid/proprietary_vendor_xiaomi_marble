@@ -1,4 +1,0 @@
-service vendor.identity /vendor/bin/hw/android.hardware.identity-service-qti
-    class hal
-    user system
-    group system
