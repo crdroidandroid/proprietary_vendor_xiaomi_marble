@@ -2035,6 +2035,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib64/c2.dolby.hevc.enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.hevc.enc.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/c2.dolby.hevc.sec.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.hevc.sec.dec.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/c2.dolby.store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.store.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/libdlbpreg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbpreg.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/libspatializerparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspatializerparamstorage.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/camera/com.qti.actuator.marble_ofilm_ov64b40_gt9764_wide_actuator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.actuator.marble_ofilm_ov64b40_gt9764_wide_actuator.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/camera/com.qti.eeprom.marble_ofilm_gc02m1_p24c64f_macro_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.marble_ofilm_gc02m1_p24c64f_macro_i_eeprom.so \
@@ -2938,6 +2940,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib64/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswgamedap.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswvqe.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/soundfx/libswspatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswspatializer.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
