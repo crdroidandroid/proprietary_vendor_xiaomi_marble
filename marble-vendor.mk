@@ -15,8 +15,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/system/etc/permissions/com.qualcomm.qti.Performance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/xiaomi/marble/proprietary/system/etc/permissions/com.qualcomm.qti.UxPerformance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.UxPerformance.xml \
     vendor/xiaomi/marble/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    vendor/xiaomi/marble/proprietary/system/lib/libdolbyottcontrol.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdolbyottcontrol.so \
-    vendor/xiaomi/marble/proprietary/system/lib/libdovi_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdovi_omx.so \
     vendor/xiaomi/marble/proprietary/system/lib64/libdolbyottcontrol.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdolbyottcontrol.so \
     vendor/xiaomi/marble/proprietary/system/lib64/libdovi_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdovi_omx.so \
     vendor/xiaomi/marble/proprietary/system/lib64/vendor.qti.hardware.perf2-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.perf2-V1-ndk.so \
@@ -54,17 +52,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/system_ext/lib/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqti-iopd-client_system.so \
     vendor/xiaomi/marble/proprietary/system_ext/lib/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqti-perfd-client_system.so \
     vendor/xiaomi/marble/proprietary/system_ext/lib/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqti_performance.so \
-    vendor/xiaomi/marble/proprietary/system_ext/lib/libsd_sdk_display.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsd_sdk_display.qti.so \
-    vendor/xiaomi/marble/proprietary/system_ext/lib/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsdm-disp-apis.qti.so \
     vendor/xiaomi/marble/proprietary/system_ext/lib/libskewknob_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libskewknob_system.so \
     vendor/xiaomi/marble/proprietary/system_ext/lib/libsmomoconfig.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsmomoconfig.qti.so \
     vendor/xiaomi/marble/proprietary/system_ext/lib/libthermalclient.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libthermalclient.qti.so \
-    vendor/xiaomi/marble/proprietary/system_ext/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.0.so \
-    vendor/xiaomi/marble/proprietary/system_ext/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.1.so \
-    vendor/xiaomi/marble/proprietary/system_ext/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.2.so \
-    vendor/xiaomi/marble/proprietary/system_ext/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.3.so \
-    vendor/xiaomi/marble/proprietary/system_ext/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/marble/proprietary/system_ext/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.diaghal@1.0.so \
     vendor/xiaomi/marble/proprietary/system_ext/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/marble/proprietary/system_ext/lib/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.perf@2.0.so \
     vendor/xiaomi/marble/proprietary/system_ext/lib/vendor.qti.hardware.perf@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.perf@2.1.so \
@@ -1371,8 +1361,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/marble/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/xiaomi/marble/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/xiaomi/marble/proprietary/vendor/lib/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.1.so \
@@ -1381,36 +1369,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.1.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.2.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.3.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libVkLayer_ADRENO_qprofiler.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/android.hardware.gnss-aidl-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss-aidl-impl-qti.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.1-impl-qti.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.dsi.ant@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/consumerir.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.qcom.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/displayfeature.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/displayfeature.default.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/fingerprint.fpc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.default.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/fingerprint.goodix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix.default.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/gyro_fusion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gyro_fusion_interface.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/sound_trigger.primary.taro.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.taro.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.esepowermanager@1.1-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.eid@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.eid@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.soter@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/lib-imscommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscommon.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsqimf.so \
@@ -1421,27 +1383,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcore.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpsl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libEvrcSwCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEvrcSwCodec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libFace3DTA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFace3DTA.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libFace3D_hlos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFace3D_hlos.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPQTEEC_vendor.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_vendor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libMiDispDevManager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiDispDevManager.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libMiVDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiVDR.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libQ6MSFR_manager_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQ6MSFR_manager_stub.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libQTEEConnector_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_listener.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libQcelp13SwCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQcelp13SwCodec.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libQtiRilLoadable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQtiRilLoadable.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libStereoRectifyWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStereoRectifyWrapper.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libTouchInputVM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTouchInputVM.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libTrustedInput.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedInput.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libTrustedInputTZ.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedInputTZ.so \
@@ -1449,142 +1395,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/libTrustedUI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedUI.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libTrustedUITZ.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedUITZ.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libTrustedUIVM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedUIVM.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_app_profiles.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_compress_plugin.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_mixer_plugin.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_pcm_plugin.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagmclient.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagmmixer.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-acdb.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-gpr.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-gsl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libasn1cper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1cper.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libasn1crt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1crt.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libasn1crtx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1crtx.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libats.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libaudiocloudctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocloudctrl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute_ext.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libawcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawcal.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libbacklight-calib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbacklight-calib.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatching.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacertclient.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcapiv2svacnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnnvendor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcapiv2svarnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnnvendor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcapiv2uvvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2uvvendor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw_remote_api.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneoplookup.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcolortempmode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcolortempmode.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcv_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcv_common.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcvp2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp2_1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvpcpuRev_skel.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdataitems.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdigital-dimming.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdigital-dimming.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.qti.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdisplaycount.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplaycount.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdisplaydebug.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplaydebug.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdisplayfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayfeature.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdisplayfeatureservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayfeatureservice.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayqos.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdisplayskuutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayskuutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdither.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdither.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmqmihal.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdpps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpps.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libeai_fixed_32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeai_fixed_32.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libengineplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengineplugin.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libeva.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeva.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libeva_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeva_util.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libeyecare.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeyecare.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libface3d_dev.so:$(TARGET_COPY_OUT_VENDOR)/lib/libface3d_dev.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libfastcrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcrc.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libflatmode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflatmode.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libfmpal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfmpal.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libfpsmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpsmonitor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgdtap.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofencing.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_ca.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_hal.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnss.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgoodixhwfingerprint.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libhalide_hexagon_host.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhalide_hexagon_host.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libhdr_backlight_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_backlight_adapter.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_client_api.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjnihelper.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libkaraokepal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkaraokepal.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libkcl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkcl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libkernelmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkernelmanager.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblistensoundmodel2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2vendor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libloc_api_wds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_wds.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_core.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libloc_eng_hub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_eng_hub.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libloc_socket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_socket.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libloc_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_util.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_api.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice_glue.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblocdiagiface.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocdiagiface.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_client.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblx-ar_util.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblx-osal.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmasc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmasc.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmcs.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmemutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmfido.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfido.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmi-stc-HW-modulate.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmi-stc-HW-modulate.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmiBrightness.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiBrightness.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmiSensorCtrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiSensorCtrl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmiXmlParser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiXmlParser.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmi_dspp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmi_dspp.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libminksocket_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket_vendor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay@1.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmt.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_common.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libnetmgr_datapath_proxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_datapath_proxy.so \
@@ -1599,44 +1415,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/libnetmgrxfrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgrxfrmutils.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnlnetmgr.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib/libops.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libpal_net_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpal_net_if.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpalclient.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libpaperMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpaperMode.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libplatformconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplatformconfig.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libpowercallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercallback.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercore.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libpsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpsi.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libpsmoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpsmoptfeature.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2audio_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_base.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2audio_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_basecodec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2audio_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_core.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2audio_hooks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_hooks.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2audio_hwaudiocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_hwaudiocodec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2audio_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_platform.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2audio_swaudiocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_swaudiocodec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2audio_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_utils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2colorconvertfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2colorconvertfilter.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2filter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2filter.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqc2vppfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2vppfilter.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcc_file_agent.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_base.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_basecodec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_core.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_filterbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_filterbase.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_hooks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_hooks.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_mockfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_mockfilter.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_mockqc2filter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_mockqc2filter.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_platform.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_utils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqcodec2_v4l2codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_v4l2codec.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqconfigclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqconfigclient.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqcrilDataModule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilDataModule.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqcrilNr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNr.so \
@@ -1646,108 +1427,37 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqcrilNrQtiMutex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNrQtiMutex.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqcrildataaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildataaidl.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildatactl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqdcm-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdcm-algo.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqdcm-json-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdcm-json-mode-parser.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqdcm-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdcm-mode-parser.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqdma_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdma_file_agent.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqdpr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdpr.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqesdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqesdk.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqesdk_manager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqesdk_manager.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqmi_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_legacy.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqppe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqppe.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqrtrclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtrclient.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqti_vndfwk_detect_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_vndfwk_detect_vendor.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqtigefar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigefar.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqtikeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymint.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqvrcamera_client.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrcamera_client.qti.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libqvrservice_client.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrservice_client.qti.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/librcmask.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcmask.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libresampler.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libril-db.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-db.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libril-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-legacy.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-ltedirectdisc.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-radioconfig.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/librilqmimiscservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilqmimiscservices.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmnetctl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-colormgr-algo.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-vndapis.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsdr2hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdr2hdr.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsensor_cal@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_cal@2.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libshsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshsc.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libshsusr_verinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshsusr_verinfo.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libslimclient.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsn220u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn220u_fw.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsnapdragoncolor-manager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnapdragoncolor-manager.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsnapdragoncolor-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnapdragoncolor-qdcm.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsndcardparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndcardparser.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_device_mode_stub.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsns_direct_channel_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_direct_channel_stub.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_registry_skel.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsoc_helper_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper_jni.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspcom.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsre.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libssccalapi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssccalapi@2.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynergy_loc_api.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libsys_info_cache.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsys_info_cache.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libtestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtestutils.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libtida@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtida@1.2.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libtruetone.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtruetone.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustedapploader.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libultrasound_notify.so:$(TARGET_COPY_OUT_VENDOR)/lib/libultrasound_notify.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libvendorscenariopoweroptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvendorscenariopoweroptfeature.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libvideomode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideomode.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libvideooptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideooptfeature.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libvideotxr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideotxr.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libvmmem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvmmem.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndfwk_detect_jni.qti.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libvndfwk_detect_jni.qti_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndfwk_detect_jni.qti_vendor.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppclient.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libvppcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppcommon.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphcp.so \
@@ -1755,22 +1465,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/libvppimmotion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppimmotion.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpptestutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeybox.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/libxiaomi_qcril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxiaomi_qcril.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libxtwifi_server_protocol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol_uri_v3.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/nfc_nci.nqx.default.hw.v1.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.nqx.default.hw.v1.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/qcrilInterfaces.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilInterfaces.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/qcrilMarshal.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilMarshal.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/qcrilNrQmiModule.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNrQmiModule.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/qcrild_libqcrilnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_libqcrilnr.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/qcrild_libqcrilnrutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_libqcrilnrutils.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/qti.video.utils.videobufferlayout.so:$(TARGET_COPY_OUT_VENDOR)/lib/qti.video.utils.videobufferlayout.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/qtiPeripheralMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtiPeripheralMgr.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/qtiril-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtiril-utils.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/qtiwakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtiwakelock.so \
@@ -1860,75 +1562,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.touch.detect.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/sensors.ultrasoundproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ultrasoundproximity.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.3.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.4.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.5.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.6.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.color@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.7.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmctmgr.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmfdmgr.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmframework.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.libdpmtcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmtcm.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.libmwqemiptablemgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libmwqemiptablemgr.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.hardware.nfc@2.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.2.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.3.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.data.factory@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.4.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.data.factory@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.5.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.mwqem@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.slm@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.diaghal@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.gnss-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss-V1-ndk_platform.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.gnss-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss-service.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.AGMIPC@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cacert@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.2.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connection@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connection@1.1.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.connectionfactory-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connectionfactory-V1-ndk_platform.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.dataactivity-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dataactivity-V1-ndk_platform.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dynamicdds@1.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.flow@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.flow@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.iwlan@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.iwlan@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.iwlan@1.1.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.ka-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.ka-V1-ndk_platform.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.lce@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.dpmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dpmservice@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.dpmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dpmservice@1.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.eid@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.eid@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.mwqemadapter@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.pal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.pal@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.pal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.pal@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.power.powermodule@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.power.powermodule@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccsyshal@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccsyshal@1.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.qccvndhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccvndhal@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.qconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qconfig@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qseecom@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
@@ -1964,7 +1603,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.slmadapter@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.soter@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.trustedui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.trustedui@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.hardware.trustedui@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.trustedui@1.1.so \
@@ -1996,22 +1634,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.ims.rcsuce@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsuce@1.2.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.imsrtpservice@3.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@3.0-service-Impl.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.qesdsys-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qesdsys-V1-ndk_platform.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0-impl.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.sla.service@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.sla.service@1.0-impl.so \
     vendor/xiaomi/marble/proprietary/vendor/lib/vendor.qti.sla.service@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.sla.service@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mfidoca@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mlipay@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mlipay@1.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.0.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.1.so \
-    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.2.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0-impl.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/c2.dolby.avc.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.avc.dec.so \
