@@ -132,17 +132,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "com.qualcomm.qti.gpudrivers.taro.api32",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/com.qualcomm.qti.gpudrivers.taro.api32/com.qualcomm.qti.gpudrivers.taro.api32.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "powermodule_java",
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/powermodule_java/powermodule_java.apk",
@@ -600,15 +589,6 @@ prebuilt_etc_xml {
 	name: "vendor.qti.gnss-service",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.qti.hardware.limits-service",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
