@@ -347,4 +347,13 @@ need to be added just before the end of it's major group. -->
         <Minor OpcodeValue="0x8" Node="/dev/cpuctl/top-app/cpu.shares" />
     <!-- sched2 major end -->
     </PerfResources>
+    <!-- camera param major start -->
+    <Major OpcodeValue="0x7F" />
+        <Minor OpcodeValue="0x0" Node="SPECIAL_NODE - set_kswapd_affinity" Supported="yes" />
+        <Minor OpcodeValue="0x1" Node="SPECIAL_NODE - reset_kswapd_affinity" Supported="yes" />
+        <Minor OpcodeValue="0x20" Node="SPECIAL_NODE - set_camera_memcg" Supported="yes" />
+        <Minor OpcodeValue="0x21" Node="SPECIAL_NODE - set_camera_memcg" Supported="yes" />
+        <Minor OpcodeValue="0x22" Node="SPECIAL_NODE - set_camera_memcg" Supported="yes" />
+        <Minor OpcodeValue="0x23" Node="SPECIAL_NODE - set_camera_memcg" Supported="yes" />
+    <!-- camera major end -->
 </ResourceConfigs>

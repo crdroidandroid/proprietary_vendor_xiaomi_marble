@@ -2,8 +2,7 @@
     "Config": {
         "switches": {
             "main": false,
-            "debug": true,
-            "use_shell": false
+            "debug": true
         },
         "scan": {
             "timeout_second": 120,
@@ -37,16 +36,6 @@
             "monitor_uids": [
                 1000
             ],
-            "uid_map": [
-                {
-                    "name": "system",
-                    "value": 1000
-                },
-                {
-                    "name": "root",
-                    "value": 0
-                }
-            ],
             "wchans": [
                 "wait_on_page_bit_common"
             ]
@@ -63,6 +52,12 @@
             "max_iowait_timeout_cnt": 0,
             "max_iowait_task_cnt": 5,
             "list": []
+        },
+        "blackscreen_monitor": {
+            "enable": false,
+            "interval_second": 5,
+            "pixel_check": true,
+            "panic": false
         }
     }
 }

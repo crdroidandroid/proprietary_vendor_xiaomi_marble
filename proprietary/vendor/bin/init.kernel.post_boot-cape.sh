@@ -60,6 +60,7 @@ echo 0-3 > /dev/cpuset/system-background/cpus
 echo 4-7 > /dev/cpuset/foreground/boost/cpus
 echo 0-2,4-7 > /dev/cpuset/foreground/cpus
 echo 0-7 > /dev/cpuset/top-app/cpus
+echo 0-7 > /dev/cpuset/audio-app/cpus
 
 # Turn off scheduler boost at the end
 echo 0 > /proc/sys/walt/sched_boost
@@ -77,8 +78,8 @@ echo 1804800 > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
 echo 1 > /sys/devices/system/cpu/cpufreq/policy0/walt/pl
 
 # configure input boost settings
-echo 1132800 0 0 0 0 0 0 0 > /proc/sys/walt/input_boost/input_boost_freq
-echo 100 > /proc/sys/walt/input_boost/input_boost_ms
+echo 1228800 0 0 0 0 0 0 0 > /proc/sys/walt/input_boost/input_boost_freq
+echo 120 > /proc/sys/walt/input_boost/input_boost_ms
 
 echo 1785600 0 0 0 2169600 0 0 2419200 > /proc/sys/walt/input_boost/powerkey_input_boost_freq
 echo 120 > /proc/sys/walt/input_boost/powerkey_input_boost_ms
