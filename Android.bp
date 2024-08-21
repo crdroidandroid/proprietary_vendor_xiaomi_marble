@@ -89,6 +89,15 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_etc_xml {
+	name: "manifest_vendor.dolby.hardware.dms",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.xiaomi.hardware.quickcamera@1.0-service",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.quickcamera@1.0-service.xml",
