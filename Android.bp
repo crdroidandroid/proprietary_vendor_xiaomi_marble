@@ -2038,24 +2038,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libQnnHtpV69Skel",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib64/camera/libQnnHtpV69Skel.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "camera",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libQnnHtpV69Stub",
 	owner: "xiaomi",
 	strip: {

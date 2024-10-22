@@ -736,7 +736,6 @@ PRODUCT_PACKAGES += \
     libQnnHtp \
     libQnnHtpPrepare \
     libQnnHtpV69 \
-    libQnnHtpV69Skel \
     libQnnHtpV69Stub \
     com.xiaomi.plugin.anchor \
     com.xiaomi.plugin.arcsoftsll \
