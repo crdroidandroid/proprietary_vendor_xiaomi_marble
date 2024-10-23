@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),marble)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,c29a00da0fbd94350d9b5169d2d092f6b49a7971)
+$(call add-radio-file-sha1-checked,radio/abl.img,c7801d353055ed53dfb1f55afb15071930990833)
 $(call add-radio-file-sha1-checked,radio/aop.img,c4f9a55bcdf0a30369507c09b2275eb7763fa8f9)
 $(call add-radio-file-sha1-checked,radio/aop_config.img,4fe008824c106e6e972086523d6377a0ea8cc611)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,47cefcafea01a02fad42554f97190717bc916fae)
