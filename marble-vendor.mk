@@ -721,7 +721,6 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper_secure \
     libQnnHtp \
     libQnnHtpPrepare \
-    libQnnHtpV69 \
     libQnnHtpV69Stub \
     com.xiaomi.plugin.anchor \
     com.xiaomi.plugin.arcsoftsll \
