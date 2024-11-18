@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/marble
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/marble/proprietary/product/etc/displayconfig/display_id_4630946370515662722.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630946370515662722.xml \
     vendor/xiaomi/marble/proprietary/product/etc/displayconfig/display_id_4630946480857061762.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630946480857061762.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/acdbdata/Forte/Forte_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_acdb_cal.acdb \
     vendor/xiaomi/marble/proprietary/vendor/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp \
