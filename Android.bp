@@ -2020,24 +2020,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libQnnHtpV69",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib64/camera/libQnnHtpV69.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "camera",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libQnnHtpV69Stub",
 	owner: "xiaomi",
 	strip: {
@@ -3525,15 +3507,15 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.primary.taro-marble",
+	name: "audio.primary.taro",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/audio.primary.taro-marble.so"],
-			shared_libs: ["libbase", "liblog", "libcutils", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libultrasound_notify", "libar-pal", "libresampler", "libhardware_legacy", "libaudiocloudctrl", "gyro_fusion_interface", "libstagefright_foundation", "libtinyalsa", "libxlog", "vendor.qti.hardware.pal@1.0", "libc++", "libc", "libm", "libdl", ],
+			srcs: ["proprietary/vendor/lib64/hw/audio.primary.taro.so"],
+			shared_libs: ["libbase", "liblog", "libcutils", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libultrasound_notify", "libar-pal", "libresampler", "libhardware_legacy", "libaudiocloudctrl", "gyro_fusion_interface", "libstagefright_foundation-v33", "libtinyalsa", "libxlog", "vendor.qti.hardware.pal@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4838,7 +4820,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libkaraokepal.so"],
-			shared_libs: ["libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libar-pal", "audio.primary.taro-marble", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libar-pal", "audio.primary.taro", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
