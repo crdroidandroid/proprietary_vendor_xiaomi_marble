@@ -58,7 +58,7 @@
             <hbmExitThreshold>5000</hbmExitThreshold>
             <hbmKeepOnMaxTime>1800</hbmKeepOnMaxTime>
             <hbmRestTime>600</hbmRestTime>
-            <maxBL>2047</maxBL>
+            <maxBL>4095</maxBL>
             <closeDelay>3</closeDelay>
             <sensorArea>187 148 234 185</sensorArea>
         </hbm>
@@ -304,9 +304,9 @@
             <hbmtype>1</hbmtype>
             <!-- HbmBlt type: 0 for tianma panel, no HBM 0N/0FF CMD, 1 for samsung panel, HBM ON/OFF -->
             <HbmBltype>0</HbmBltype>
-            <PanelMaxDbv>2047</PanelMaxDbv>
+            <PanelMaxDbv>4095</PanelMaxDbv>
             <ManualMaxBl>8191</ManualMaxBl>
-            <autoMaxBl>16383</autoMaxBl>
+            <autoMaxBl>8191</autoMaxBl>
             <ManualminBl>16</ManualminBl>
             <MinDBV>16</MinDBV>
             <Mi12BitThr>400</Mi12BitThr>
