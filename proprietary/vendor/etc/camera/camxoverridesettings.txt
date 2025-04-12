@@ -1,20 +1,12 @@
 multiCameraLogicalXMLFile=marble.xml
 
 # Camera Log
-overrideLogLevels=0x1
-logInfoMask=0
-logWarningMask=0
-logConfigMask=0
-logVerboseMask=0
-logCoreCfgMask=0
-logRequestMapping=FALSE
-systemLogEnable=TRUE
-enableAsciiLogging=0
-enableTxtLogging=0
-raiserecoverysigabrt=FALSE
+logInfoMask=0x10098
+overrideLogLevels=0x1F
+enableTxtLogging=1
+offlineLogNumber=20
+raiserecoverysigabrt=TRUE
 offlineLoggerEnableBackupLog=FALSE
-enableCameraCoreDumpBinary=FALSE
-enableCameraCoreDumpText=FALSE
 numConsecutiveRecovery=10
 
 # Bokeh
@@ -236,7 +228,7 @@ enableBLMClient=1
 #slow motion thread num
 OperationMode2ThreadNum=1:4
 #systrace
-traceGroupsEnable=0
+traceGroupsEnable=0x100c0
 
 #flush time
 nodeResponseTime=200
