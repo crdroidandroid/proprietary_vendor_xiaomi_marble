@@ -11273,6 +11273,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.sensors@2.0-ScopedWakelock",
                 "android.frameworks.sensorservice@1.0",
                 "libjsoncpp",
+                "libmisight",
                 "libc++",
                 "libc",
                 "libm",
